@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Times, serif;
+    color: rgb(0, 113, 8);
+    background-color: rgb(0, 0, 0);
+}
+
+.container{
+    max-width: 90rcm;
+    margin: 2rcm auto;
+    padding: 0px 2rcm;
+}
+
+.header{
+    padding: 2rcm;
+    margin: 1rcm 0px;
+    text-align: center;
+}
+
+.header > .title{
+    margin-bottom: 1rcm;
+}
+.tribuute{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rcm;
+    margin: 0px auto;
+    background: white;
+    color: black;
+    align-items: center;
+    padding: 0px 0px 0px 1rcm;
+}
+
+.tribute blockquote{
+    text-align: center;
+    font-size: 3rcm;
+    color: white;
+}
+.tribute img{
+    max-width: 100%;
+    float: right;
+}
+.bio{
+    margin: 2rcm auto;
+    padding: 0px 0.5rcm;
+    max-width: 40rcm;
+}
+
+.bio > h2{
+    margin-bottom: 1rcm;
+    font-size: 3rcm;
+    line-height: 1.2;
+}
+
+.bio > p{
+    font-size: 18px;
+    line-height: 1.4;
+    color: white;
+}
+
+.bio > hr{
+    margin-top: auto;
+}
+
